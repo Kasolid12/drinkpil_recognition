@@ -76,4 +76,4 @@ def process_video():
     return jsonify({'counter': counter})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8011, debug=True)
